@@ -63,7 +63,7 @@ Get_Adc_Average(ADC_Channel_12, N);对adcChannel_12连续读取N次数据取平�
 //define后：if(adc2 > 1500)
 //利人利己，利国利民，make life easier.
 ```
-5. Last but not least,  **记得他娘的初始化!** 在main函数种加入初始化函数：
+5. Last but not least,  **记得他娘的初始化!** 在main函数中加入初始化函数：
 ```C
 Adc_Init();
 ```
